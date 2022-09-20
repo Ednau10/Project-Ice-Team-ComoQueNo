@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-size: 14px
+}
+
+main .productos {
+    padding: 60px 15px;
+    max-width: 1200px;
+    width: 1200px;
+    margin: auto
+}
+
+main .productos .products {
+    text-align: center;
+    font-family: "Titan One", cursive;
+    letter-spacing: .04em
+}
+
+main .productos .products .products__titulo1 {
+    color: #ffa5ba;
+    font-size: 2.41em
+}
+
+main .productos .products .products__titulo2 {
+    color: #d41443;
+    font-size: 6em;
+    letter-spacing: .06em;
+    padding: 16px 0 275px 0
+}
+
+main .ice {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: 368px;
+    gap: 32px
+}
+
+main .ice .ice__card {
+    text-align: center;
+    color: #fff
+}
+
+main .ice .ice__card .ice__card__text {
+    width: 241px;
+    margin: auto
+}
+
+main .ice .card {
+    border-radius: 24px
+}
+
+main .ice .card img {
+    margin-top: -255px
+}
+
+main .ice .card .card__titulo {
+    padding: 32px 0;
+    font-family: "Titan One", cursive;
+    font-size: 2.14em;
+    letter-spacing: .04em;
+    line-height: 34px
+}
+
+main .ice .card .card__puntos {
+    display: flex;
+    margin: auto;
+    width: 25px;
+    gap: 4px
+}
+
+main .ice .card .card__puntos .card__punto {
+    margin: auto;
+    width: 6px;
+    height: 6px;
+    background: #fff;
+    border-radius: 50%
+}
+
+main .ice .card .ice__card__text {
+    padding: 32px 0 60px;
+    font-weight: 700;
+    font-size: 1.142em;
+    height: 200px;
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: 0.04em;
+
+    overflow: hidden
+}
+
+main .ice .card .img__arrow {
+    margin: auto;
+    padding: 60px 0;
+    width: 40px;
+    line-height: 40px;
+}
+
+main .ice .card .img__arrow:hover {
+    cursor: pointer;
+}
+
+
+main .ice .card .img__arrow .arrow {
+
+    height: 40px;
+    width: 40px;
+}
+
+main .ice .card__uno {
+    background: #ffb8ca
+}
+
+main .ice .card__dos {
+    background: #f0d1a5
+}
+
+main .ice .card__tres {
+    background: #c2e297
+}
+
+
+@media screen and (max-width:320px) {
+
+    main .ice {
+        flex-direction: column;
+    }
+
+    main .productos {
+        max-width: 320px;
+    }
+
+    main .productos .products .products__titulo2 {
+        font-size: 2.42em;
+    }
+
+    .ice .card {
+        width: 280px;
+        margin-top: 205px;
+
+    }
+
+    main .ice .card img {
+        width: 280px;
+        margin-top: -209px;
+
+    }
+
+    main .productos .products .products__titulo2 {
+        padding: 15px 61px 8px 59px;
+    }
+
+    main .productos .products .products__titulo1 {
+        font-size: 1.28em;
+    }
+
+}
