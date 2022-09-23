@@ -1,79 +1,133 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <html lang="en">
-    <meta charset="utf-8" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Proyecto-Grupal-GOIT" content="Project-Ice" />
-    <link rel="stylesheet" href="css/styles.css">
 
-
-
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- <link rel="stylesheet" href="/pruebas/styles.css"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Titan+One&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Titan+One&display=swap"
         rel="stylesheet">
-    <title>Studio</title>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Titan+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
-    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/21d82edebf/UntitledProject/style-svg.css">
-<script defer src="https://i.icomoon.io/public/temp/21d82edebf/UntitledProject/svgxuse.js"></script>
+
+    <title>Ice Cream</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
 </head>
 
-<body class="container">
+<body>
     <header>
-        <svg class="logo">
-            <use href="./images/svgs.svg#"></use>
-        </svg>
-        <nav>
-            <a href="index.html" class="headernav">Home</a>
-            <a href=»#» class="headernav">About us</a>
-            <a href=»#» class="headernav">How it´s made?</a>
-            <a href=»#» class="headernav">Our products</a>
-            <a href=»#» class="headernav">Contact</a>
-        </nav>
-        <button type="button" class="buybutton">Buy now</button>
+        <div class="header__container">
+            <div class="logo">
+                <svg class="logo__img">
+                    <use href="./images/symbol-defs.svg#icon-logoheader"></use>
+
+                </svg>
+            </div>
+            <nav>
+                <ul class="nav__ul">
+                    <li class="nav__ul__li"><a>Home</a></li>
+                    <li class="nav_ul__li"><a>About us</a></li>
+                    <li class="nav_ul__li"><a>How it’s made?</a></li>
+                    <li class="nav_ul__li"><a>Our products</a></li>
+                    <li class="nav_ul__li"><a>Contact</a></li>
+                </ul>
+
+            </nav>
+            <div class="nav__burger">
+                <svg class="nav__burger__img">
+                    <use href="./images/symbol-defs.svg#icon-burger"></use>
+
+                </svg>
+            </div>
+            <div class="header__buttom--withe buttom">
+                <p>Buy now ></p>
+            </div>
+        </div>
     </header>
+
     <main>
-        <section>
-            <div class="section1title">
-                <p>ICE CREAM <br> MADE WITH</p>
-                <p>PASSION</p>
+        <div class="main--rose">
+            <div class="main__top">
+                <!--superior izquierdo-->
+                <div class="main__left">
+                    <h1>ice&nbsp; cream made with <br>
+                        <span>passion</span>
+                    </h1>
+                    <div class="main_left_buttoms">
+                        <div class="main__buttom--red buttom">
+                            <p>Products</p>
+                        </div>
+                        <div class="main__buttom--white buttom">
+                            <p>How it’s made?</p>
+                        </div>
+                    </div>
+                </div>
+                <!--superior centro-->
+                <div class="main__center">
+
+                    <div class="main__circle"></div>
+                </div>
+                <!--superior derecho-->
+                <div class="main__right">
+                    <div class="main__count main__count__cafe">16</div>
+
+                    <div class="main__p__count main__p__count__cafe">cafe</div>
+
+                    <div class="main__count main__count__foodtrucks">23</div>
+
+                    <div class="main__p__count main__p__count__foodtrucks">food trucks</div>
+                </div>
             </div>
 
-            <div class="section1buttons">
-                <button type="button" class="titlebutton">Products</button>
-                <button type="button" class="titlebutton">How it´s made?</button>
-            </div>
+            <!--inferior-->
+            <div class="main__bottom">
 
-            <div class="">
-                <div>
-                    <p>16</p>
-                    <p>cafes</p>
+                <div class="main__botom_milk__join">
+                    <div class="main__img__milk">
+                        <img src="images/slider-pic5_1.png" alt="Milk in a jar">
+                    </div>
+                    <!--agrupa inferior izquierdo texto y flecha-->
+
+                    <div class="main__bottom__milk">
+                        <div class="main__txt">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore et</p>
+                        </div>
+                        <div class="main__img__arrow">
+                            <img src="images/arrow-right1.png" alt="Ice-cream ">
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <p>23<br>
-                    <p>food trucks</p>
+
+                <div class="main__img__icecream">
+                    <img src="images/slider-pic7_1.png" alt="Ice-cream ">
                 </div>
+
+                <div class="main__img__icepop">
+                    <img src="images/slider-pic4_1.png" alt="Girl eating Ice-pop">
+                </div>
+
             </div>
-            <img src="/images/slider-pic5_1.png" alt="tasty">
-            <img src="/images/slider-pic7_1.png" alt="icecream">
-            <img src="/images/slider-pic4_1.png" alt="milk">
-        </section>
+        </div>
+    </main>
+
+    <!--     *** ** * -- Liz -- * ** ***     -->
+    <div class="main">
         <section class="productos">
 
             <div class="products">
-                <p class="products__titulo1">
+                <h2 class="products__titulo1">
 
                     100% NATURAL
-                </p>
-                <p>
-                <p class="products__titulo2">
+                </h2>
+
+                <h1 class="products__titulo2">
                     PRODUCTS
-                </p>
+                </h1>
             </div>
 
 
@@ -100,7 +154,7 @@
                     </p>
                     <div class="img__arrow">
 
-                        <img class="arrow" src="./images/arrow-right1.png">
+                        <img class="arrow" src="/images/arrow-right1.png">
 
 
                     </div>
@@ -131,7 +185,7 @@
                     </p>
                     <div class="img__arrow">
 
-                        <img class="arrow" src="./images/arrow-right1.png">
+                        <img class="arrow" src="/images/arrow-right1.png">
 
 
                     </div>
@@ -139,297 +193,283 @@
 
 
                 </div>
-                <div>
-                    <div class="ice__card card__tres card">
-                        <img src="/images/home-pic3.png" alt="milkshakes">
-                        <p>
-                        <p class="card__titulo">
-                            MILKSHAKES
-                        </p>
 
-                        <p>
-                        <div class="card__puntos">
-                            <div class="card__punto"></div>
-                            <div class="card__punto"></div>
-                            <div class="card__punto"></div>
-                        </div>
-                        <p class="ice__card__text">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti neque
-                            accusantium ducimus eum
-                            aperiam, repudiandae itaque in, dolor nam voluptatum illum inventore? Enim unde
-                            ab possimus quos
-                            reiciendis aliquid quae.
-                        </p>
-                        <div class="img__arrow">
-
-                            <img class="arrow" src="./images/arrow-right1.png">
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        </section>
-
-        <section>
-            <div>
-                <p>
-                    TRADITION AND LOVE
-                </p>
-                <p>
-                    HOW IT´S MADE?
-                </p>
-            </div>
-            <div>
-                <img src="/images/home-pic4_1.png" alt="cow" width="50px">
-                (aca va otra imagen de la leche salpicada)
-            </div>
-            <div>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum officiis, eius dolorum nostrum
-                    ducimus ea, tenetur sed cum fuga modi eligendi veniam, sequi suscipit similique dignissimos
-                    obcaecati optio praesentium cupiditate!
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptate praesentium laborum cum
-                    nihil quae, aut ipsa tempore suscipit. Tenetur modi nemo minima optio expedita, dolor at? Repellat,
-                    quia repellendus.
-                </p>
-                <p>
-                    Aliquam erat volutpat. Aenean accumsan
-                </p>
-            </div>
-            <div>
-                <button type="button" class="">Read More ></button>
-            </div>
-            <div>
-                <svg class="svg1">
-                    <use href="./images/svgs.svg#"></use>
-                </svg>
-                <p>
-                    721
-                </p>
-                <p>
-                    Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
-                </p>
-            </div>
-            <div>
-                <svg class="svg1">
-                    <use href="./images/svgs.svg#"></use>
-                </svg>
-                <p>
-                    16kg
-                </p>
-                <p>
-                    Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
-                </p>
-            </div>
-            <div>
-                <svg class="svg1">
-                    <use href="./images/svgs.svg#"></use>
-                </svg>
-                <p>
-                    84
-                </p>
-                <p>
-                    Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
-                </p>
-            </div>
-            <div>
-                ...
-            </div>
-        </section>
-
-        <section>
-
-            <div class="testimonial">
-                
-                <img src="images/testimonials1.png" alt="women1">
-
-                <div class="testimonial__text">
-
-                    <div class="testimonial__emily">
-                        <p>
-                            Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit
-                        </p>
-                        <p>
-                            nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.
-                        </p>
-                    </div>
-                    
-                </div>
-               
-                <p>...</p>
-                <p class="testimonial__name">Emily los Angeles</p>
-                <div>
-                    <svg class="icon-home" width="12px" height="10.84px"><use href="./images/svgs.svg#icon-home"></use></svg> 
-                </div>
-            </div>
-            <!--section for cafe's information-->
-
-            <div class="information">
-                <div class="information__locations">
-
-                    <p class="information__title cafe">
-                        CAFE
+                <div class="ice__card card__tres card">
+                    <img src="/images/home-pic3.png" alt="milkshakes">
+                    <p>
+                    <p class="card__titulo">
+                        MILKSHAKES
                     </p>
 
-                    <div class="information__divided">
-                        
-                        <p class="information__subtitle">
-                            Chicago
-                        </p>
-                        <p class="information__paragraph">
-                            Fusce ut velit laoreet, tempus arcu molestie vulputate
-                        </p>
+                    <p>
+                    <div class="card__puntos">
+                        <div class="card__punto"></div>
+                        <div class="card__punto"></div>
+                        <div class="card__punto"></div>
                     </div>
+                    <p class="ice__card__text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti neque
+                        accusantium ducimus eum
+                        aperiam, repudiandae itaque in, dolor nam voluptatum illum inventore? Enim unde
+                        ab possimus quos
+                        reiciendis aliquid quae.
+                    </p>
+                    <div class="img__arrow">
 
-                    <div class="information__divided">
-                        <p>
-                            Monday - Friday
-                        </p>
-                        <p class="hour">
-                            06:00 AM - 10:00 PM
-                        </p>
-                        <p>
-                            Saturday - Sunday
-                        </p>
-                        <p class="hour">
-                            08:00 AM - 16:00 PM
-                        </p>
-                    </div>
-                    <div class="information__divided information__paragraph">
-                        <p>
-                            +61(0) 383 766 284 <br> noreply@envato.com
-                        </p>
-                    </div>
-                </div>
-    
-                <div class="information__locations">
-                    <p class="information__title food">
-                        FOOD TRUCK
-                    </p>
-                    <div class="information__divided">
-                        <p>
-                            Los Angeles
-                        </p>
-                        <p class="information__paragraph">
-                            Fusce ut velit laoreet, tempus arcu molestie vulputate
-                        </p>
-                    </div>
-                    <div class="information__divided">
-                        <p>
-                            Monday - Friday
-                        </p>
-                        <p class="hour">
-                            06:00 AM - 10:00 PM
-                        </p>
-                        <p>
-                            Saturday - Sunday
-                        </p>
-                        <p class="hour">
-                            08:00 AM - 16:00 PM
-                        </p>
-                    </div>
-                    <div class="information__divided">
-                        <p class="information__paragraph">
-                            +61(0) 383 766 284 <br> noreply@envato.com
-                        </p>
-                    </div>
-                </div>
-    
-                <div class="information__locations">
-                    <p class="information__title cafe">
-                        CAFE
-                    </p>
-                    <div class="information__divided">
-                        <p>
-                            New York
-                        </p>
-                        <p class="information__paragraph">
-                            Fusce ut velit laoreet, tempus arcu molestie vulputate
-                        </p>
-                    </div >
-                    <div class="information__divided">
-                        <p>
-                            Monday - Friday
-                        </p>
-                        <p class="hour">
-                            06:00 AM - 10:00 PM
-                        </p>
-                        <p>
-                            Saturday - Sunday
-                        </p>
-                        <p class="hour">
-                            08:00 AM - 16:00 PM
-                        </p>
-                    </div>
-                    <div class="information__divided">
-                        <p class="information__paragraph">
-                            +61(0) 383 766 284 <br> noreply@envato.com
-                        </p>
+                        <img class="arrow" src="/images/arrow-right1.png">
+
+
                     </div>
                 </div>
 
             </div>
-        <!--Button information -->   
-            <div class="button-information">
-                <button type="button" >Our Locations ></button>
-                <button type="button" >Franchise ></button>
-            </div>
-
         </section>
+    </div>
 
-        
+    <!-- **** *** ** *   J a v i e r    * ** *** **** -->
+
+    <!-- 
+
+
+<section>
+    <div>
+        <p>
+            TRADITION AND LOVE
+        </p>
+        <p>
+            HOW IT´S MADE?
+        </p>
+    </div>
+    <div>
+        <img src="/images/home-pic4_1.png" alt="cow">
+        (aca va otra imagen de la leche salpicada)
+    </div>
+    <div>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum officiis, eius dolorum nostrum
+            ducimus ea, tenetur sed cum fuga modi eligendi veniam, sequi suscipit similique dignissimos
+            obcaecati optio praesentium cupiditate!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptate praesentium laborum cum
+            nihil quae, aut ipsa tempore suscipit. Tenetur modi nemo minima optio expedita, dolor at? Repellat,
+            quia repellendus.
+        </p>
+        <p>
+            Aliquam erat volutpat. Aenean accumsan
+        </p>
+    </div>
+    <div>
+        <button type="button" class="">Read More ></button>
+    </div>
+    <div>
+        <svg class="svg1">
+            <use href="./images/svgs.svg#"></use>
+        </svg>
+        <p>
+            721
+        </p>
+        <p>
+            Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
+        </p>
+    </div>
+    <div>
+        <svg class="svg1">
+            <use href="./images/svgs.svg#"></use>
+        </svg>
+        <p>
+            16kg
+        </p>
+        <p>
+            Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
+        </p>
+    </div>
+    <div>
+        <svg class="svg1">
+            <use href="./images/svgs.svg#"></use>
+        </svg>
+        <p>
+            84
+        </p>
+        <p>
+            Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
+        </p>
+    </div>
+    <div>
+        ...
+    </div>
+</section>
+ -->
+    <!-- **** *** ** *   A d r i a n a   * ** *** *** -->
+
+
+    <!--section for cafe's information-->
+
+    <div class="information">
+        <div class="inf__margin">
+            <div class="information__locations">
+
+                <p class="information__title cafe">
+                    CAFE
+                </p>
+
+                <div class="information__divided">
+
+                    <p class="information__subtitle">
+                        Chicago
+                    </p>
+                    <p class="information__paragraph">
+                        Fusce ut velit laoreet, tempus arcu molestie vulputate
+                    </p>
+                </div>
+
+                <div class="information__divided">
+                    <p>
+                        Monday - Friday
+                    </p>
+                    <p class="hour">
+                        06:00 AM - 10:00 PM
+                    </p>
+                    <p>
+                        Saturday - Sunday
+                    </p>
+                    <p class="hour">
+                        08:00 AM - 16:00 PM
+                    </p>
+                </div>
+                <div class="information__divided information__paragraph">
+                    <p>
+                        +61(0) 383 766 284 <br> noreply@envato.com
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="information__locations">
+                <p class="information__title food">
+                    FOOD TRUCK
+                </p>
+                <div class="information__divided">
+                    <p>
+                        Los Angeles
+                    </p>
+                    <p class="information__paragraph">
+                        Fusce ut velit laoreet, tempus arcu molestie vulputate
+                    </p>
+                </div>
+                <div class="information__divided">
+                    <p>
+                        Monday - Friday
+                    </p>
+                    <p class="hour">
+                        06:00 AM - 10:00 PM
+                    </p>
+                    <p>
+                        Saturday - Sunday
+                    </p>
+                    <p class="hour">
+                        08:00 AM - 16:00 PM
+                    </p>
+                </div>
+                <div class="information__divided">
+                    <p class="information__paragraph">
+                        +61(0) 383 766 284 <br> noreply@envato.com
+                    </p>
+                </div>
+            </div>
+
+            <div class="information__locations">
+                <p class="information__title cafe">
+                    CAFE
+                </p>
+                <div class="information__divided">
+                    <p>
+                        New York
+                    </p>
+                    <p class="information__paragraph">
+                        Fusce ut velit laoreet, tempus arcu molestie vulputate
+                    </p>
+                </div>
+                <div class="information__divided">
+                    <p>
+                        Monday - Friday
+                    </p>
+                    <p class="hour">
+                        06:00 AM - 10:00 PM
+                    </p>
+                    <p>
+                        Saturday - Sunday
+                    </p>
+                    <p class="hour">
+                        08:00 AM - 16:00 PM
+                    </p>
+                </div>
+                <div class="information__divided">
+                    <p class="information__paragraph">
+                        +61(0) 383 766 284 <br> noreply@envato.com
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Button information -->
+    <div class="button-information">
+        <button type="button button--red">Our Locations ></button>
+        <button type="button">Franchise ></button>
+    </div>
+
+    </section>
+
+
     </main>
 
     <footer>
 
         <section class="footer">
-            <div class="footer__text">
-                <div>
+            <div class="footer__margin">
+                <div class="footer__text">
+                    <div class="footer__box">
 
-                    <p class="footer__title one">HOMEMADE ICE CREAM MADE</p>
-                    
-                </div>  
+                        <p class="footer__title one">HOMEMADE ICE CREAM MADE</p>
 
-                <div>
-                    <p class="footer__title two">WITH PASSION</p>
-                    
+                    </div>
+
+                    <div class="footer__box">
+                        <p class="footer__title two">WITH PASSION</p>
+
+                    </div>
+
+
                 </div>
-                
 
+
+                <div class="footer__text networks">
+
+                    <div>
+                        <a>
+                            <svg class="footer_icon icon-gitgub">
+                                <use href="./images/svgs.svg#icon-github"></use>
+                            </svg>
+                        </a>
+                        <a>
+                            <svg class="footer_icon icon-telegram">
+                                <use href="./images/svgs.svg#icon-telegram"></use>
+                            </svg>
+                        </a>
+                        <a>
+                            <svg class="footer_icon icon-facebook">
+                                <use href="./images/svgs.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div class="footer__information">
+                        <p>Feel free to contac</p>
+                        <p class="footer_number">+61(0) 383 766 284</p>
+                    </div>
+
+                </div>
             </div>
-    
-    
-            <div class="footer__text networks">
-                
-                <div>
-                    <a>
-                        <svg class="footer_icon icon-gitgub">
-                            <use href="./images/svgs.svg#icon-github"></use>
-                        </svg>
-                    </a>
-                    <a>
-                        <svg  class="footer_icon icon-telegram">
-                            <use href="./images/svgs.svg#icon-telegram"></use>
-                        </svg>
-                    </a>
-                    <a>
-                        <svg  class="footer_icon icon-facebook">
-                            <use href="./images/svgs.svg#icon-facebook"></use>
-                        </svg>
-                    </a>
-                </div>
-
-                <div class="footer__information">
-                    <p>Feel free to contac</p> <p class="footer_number">+61(0) 383 766 284</p> 
-                </div>
-                
-            </div>
-
         </section>
 
         <div class="copyright">
@@ -437,9 +477,7 @@
                 ©2022 - IceCream. All Rights Reserved.
             </p>
         </div>
-        <div></div>
-           
-       
+        
     </footer>
 </body>
 
