@@ -1,0 +1,339 @@
+
+:root{
+    --pink-color: #D41342;
+    --white-color: #FFFFFF;
+}
+.container{
+    width: 1200px;
+    font-family: 'DM Sans', sans-serif;;
+    font-weight: 500;
+    padding: 25px;
+    margin:0px;
+}
+.testimonial{
+    text-align: center;
+}
+
+.testimonial__text{
+    padding: 2% 10% 0% 10%;
+}
+
+.testimonial__emily{
+    /*background-color: #FAFAFA;*/
+    padding: 1% 0%;
+    background: url(../images/comillas.png) top 0px left 40px no-repeat  ;
+}
+
+.testimonial__emily>p{
+    border-bottom: 2px solid #E1E1E1;
+    width: 821px;
+}
+
+.testimonial__name{
+    font-size: 20px;
+}
+
+.information{
+    margin: 0%;
+    padding: 2% 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.information__locations{
+    
+    padding: 3% 3% 0%;
+    border-radius: 30px;
+    box-shadow: 0 2.8px 2.2px rgba(196, 55, 109, 0.034),
+    0 6.7px 5.3px rgba(196, 55, 109, 0.048), 0 12.5px 10px rgba(196, 55, 109, 0.06),
+    0 22.3px 17.9px rgba(196, 55, 109, 0.072), 0 41.8px 33.4px rgba(196, 55, 109, 0.086),
+    0 100px 80px rgba(196, 55, 109, 0.12);
+
+}
+
+.information__locations:nth-child(1){
+    margin-right: 2%;
+}
+.information__locations:nth-child(2){
+    margin-right: 2%;
+}
+
+.information__title{
+    color: white;
+    text-transform: uppercase;
+    padding: 3%;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 0%;
+}
+
+.information__title.cafe{
+    background-color: #F0D1A5;
+    width: 30%;
+}
+ 
+.information__title.food{
+
+    background-color: #C2E297;
+    width: 50%;
+}
+
+.information__divided{
+    padding: 5% 0% 5% 0%;
+    border-bottom: 2px solid #E1E1E1;
+}
+
+.information__paragraph{
+    color: #907E82;
+}
+
+.hour{
+    color: #FFA5BA;
+}
+
+.button-information{
+    display: flex;
+    justify-content: center;
+    padding: 5% 0%;
+}
+
+.button-information>button{
+    width: 198px;
+    height: 44px;
+    margin: 5px;
+    border-radius:20px;
+    background-color: var(--white-color);
+    color: #D41443;;
+    font-weight: 700;
+    border-color: white;
+    border: 0px;
+}
+.button-information>button:hover{
+    background-color: #D41342;
+    color: white;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between
+}
+.footer__text{
+    display: flex;
+    flex-direction: column;
+    padding: 2% 0%;
+   
+}
+
+.footer__text.networks{
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+}
+
+.footer__text>div{
+    padding: 2% 0%;
+    
+}
+
+
+.footer__title{
+    font-family: 'Titan One';
+    margin: 0px;
+   
+}
+
+.footer__title.one{
+    font-size: 30px;
+    color: #FFA5BA;
+}
+.footer__title.two{
+    font-size: 58px;
+    color: #D41443;
+}
+
+.footer_icon{
+    width:34px;
+    height:34px;
+    margin-left: 30px;
+}
+
+.footer__information{
+    display: flex;
+}
+
+.footer__information>p{
+    font-weight: 700;
+}
+
+.footer_number{
+    color: #D41443;
+}
+
+.copyright{
+    text-align: center;
+    background-color: #FAFAFA;
+    color: #907E82;
+    border-top: 1px solid #E1E1E1
+    
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-size: 14px
+}
+
+main .productos {
+    padding: 60px 15px;
+    max-width: 1200px;
+    width: 1200px;
+    margin: auto
+}
+
+main .productos .products {
+    text-align: center;
+    font-family: "Titan One", cursive;
+    letter-spacing: .04em
+}
+
+main .productos .products .products__titulo1 {
+    color: #ffa5ba;
+    font-size: 2.41em
+}
+
+main .productos .products .products__titulo2 {
+    color: #d41443;
+    font-size: 6em;
+    letter-spacing: .06em;
+    padding: 16px 0 275px 0
+}
+
+main .ice {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: 368px;
+    gap: 32px
+}
+
+main .ice .ice__card {
+    text-align: center;
+    color: #fff
+}
+
+main .ice .ice__card .ice__card__text {
+    width: 241px;
+    margin: auto
+}
+
+main .ice .card {
+    border-radius: 24px
+}
+
+main .ice .card img {
+    margin-top: -255px
+}
+
+main .ice .card .card__titulo {
+    padding: 32px 0;
+    font-family: "Titan One", cursive;
+    font-size: 2.14em;
+    letter-spacing: .04em;
+    line-height: 34px
+}
+
+main .ice .card .card__puntos {
+    display: flex;
+    margin: auto;
+    width: 25px;
+    gap: 4px
+}
+
+main .ice .card .card__puntos .card__punto {
+    margin: auto;
+    width: 6px;
+    height: 6px;
+    background: #fff;
+    border-radius: 50%
+}
+
+main .ice .card .ice__card__text {
+    padding: 32px 0 60px;
+    font-weight: 700;
+    font-size: 1.142em;
+    height: 200px;
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: 0.04em;
+
+    overflow: hidden
+}
+
+main .ice .card .img__arrow {
+    margin: auto;
+    padding: 60px 0;
+    width: 40px;
+    line-height: 40px;
+}
+
+main .ice .card .img__arrow:hover {
+    cursor: pointer;
+}
+
+
+main .ice .card .img__arrow .arrow {
+
+    height: 40px;
+    width: 40px;
+}
+
+main .ice .card__uno {
+    background: #ffb8ca
+}
+
+main .ice .card__dos {
+    background: #f0d1a5
+}
+
+main .ice .card__tres {
+    background: #c2e297
+}
+
+
+@media screen and (max-width:320px) {
+
+    main .ice {
+        flex-direction: column;
+    }
+
+    main .productos {
+        max-width: 320px;
+    }
+
+    main .productos .products .products__titulo2 {
+        font-size: 2.42em;
+    }
+
+    .ice .card {
+        width: 280px;
+        margin-top: 205px;
+
+    }
+
+    main .ice .card img {
+        width: 280px;
+        margin-top: -209px;
+
+    }
+
+    main .productos .products .products__titulo2 {
+        padding: 15px 61px 8px 59px;
+    }
+
+    main .productos .products .products__titulo1 {
+        font-size: 1.28em;
+    }
+
+}
