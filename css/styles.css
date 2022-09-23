@@ -9,8 +9,9 @@
   --pink-color: #D41342;
   --white-color: #FFFFFF;
 
-  --brand-font1: "Titan One";
-  --brand-font2: "DM Sans";
+:root{
+    --pink-color: #D41342;
+    --white-color: #FFFFFF;
 }
 
 @media screen and (min-width: 768px) {
