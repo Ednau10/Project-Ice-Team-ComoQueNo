@@ -9,8 +9,9 @@
   --pink-color: #D41342;
   --white-color: #FFFFFF;
 
-  --brand-font1: "Titan One";
-  --brand-font2: "DM Sans";
+:root{
+    --pink-color: #D41342;
+    --white-color: #FFFFFF;
 }
 
 @media screen and (min-width: 768px) {
@@ -1317,5 +1318,9 @@ footer{
   .information__locations{
   display: flex;
   flex-direction: column;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 697c2411e909cf829f487d6e15595e2228991c57
   }
 }
